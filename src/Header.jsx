@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import './Header.scss';
 import Profile from './icons/profile.jpg';
-import Icon1 from './icons/react.svg';
-import Icon2 from './icons/javascript.svg';
-import Icon3 from './icons/css.svg';
+
 class Header extends Component {
     state = {};
     render() {
@@ -22,17 +20,8 @@ class Header extends Component {
                     </a>
                 </div>
                 <div className='profile'>
-                    <div className='image animate1'>
+                    <div className='image animate4'>
                         <img src={Profile} alt='' />
-                    </div>
-                    <div className='react icon animate3'>
-                        <img src={Icon1} alt='' />
-                    </div>
-                    <div className='javascript icon animate4'>
-                        <img src={Icon2} alt='' />
-                    </div>
-                    <div className='css icon animate2'>
-                        <img src={Icon3} alt='' />
                     </div>
                 </div>
             </div>
