@@ -1,0 +1,51 @@
+.about {
+    background-color: #25262a;
+    display: grid;
+    grid-template-columns: repeat(2, 50vw);
+    grid-template-areas: 'skills intro';
+    .skills {
+        grid-area: skills;
+    }
+    .intro {
+        width: 100%;
+        grid-area: intro;
+        padding: 4rem 0;
+        margin: 2rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        h4 {
+            color: #999;
+            margin: 2rem 0;
+            font-weight: 600;
+            background: -webkit-linear-gradient(#ecdbb6, #cda55f);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 5px 5px rgba($color: #000000, $alpha: 0.2);
+        }
+        h1 {
+            color: #fff;
+            margin: 2rem 0;
+            font-weight: 700;
+            span {
+                display: block;
+                margin: 0.5rem 0;
+                font-weight: 500;
+            }
+        }
+        h3 {
+            color: #fff;
+            margin: 2rem 0;
+            width: 80%;
+        }
+        p {
+            color: #999;
+            margin: 2rem 0;
+            width: 80%;
+            font-size: 1.3rem;
+            font-weight: 500;
+            line-height: 2.5rem;
+        }
+    }
+}
