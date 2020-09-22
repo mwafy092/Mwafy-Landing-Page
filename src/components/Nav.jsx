@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './Nav.scss';
-import Mail from './icons/mail.svg';
+import '../styles/Nav.scss';
+import Mail from '../styles/images/mail.svg';
 class Nav extends Component {
     state = {};
     render() {

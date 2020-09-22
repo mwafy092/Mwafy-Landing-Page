@@ -5,6 +5,28 @@
     grid-template-areas: 'skills intro';
     .skills {
         grid-area: skills;
+        padding: 4rem 4rem;
+        margin: 2rem 0;
+        h3 {
+            margin: 2rem 1.5rem;
+            background: -webkit-linear-gradient(#ecdbb6, #cda55f);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .skill {
+            font-weight: 600;
+            color: #cda55f;
+            background-color: #2d2e32;
+            display: inline-block;
+            margin: 1.5rem;
+            padding: 1rem 2rem 0.5rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 10px 10px rgba($color: #000000, $alpha: 0.1);
+            .stars {
+                font-size: 1.2rem;
+                font-weight: 900;
+            }
+        }
     }
     .intro {
         width: 100%;

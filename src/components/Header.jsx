@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './Header.scss';
-import Profile from './icons/profile.jpg';
+import '../styles/Header.scss';
+import Profile from '../styles/images/profile.jpg';
 
 class Header extends Component {
     state = {};
