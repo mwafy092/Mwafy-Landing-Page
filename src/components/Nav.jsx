@@ -7,7 +7,7 @@ class Nav extends Component {
         return (
             <div className='nav'>
                 <div className='logo'>
-                    mwafy
+                    wafy
                     <span>Lab</span>
                 </div>
                 <nav>
