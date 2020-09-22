@@ -7,7 +7,7 @@ function Contact() {
         <div className='contact'>
             <div className='info'>
                 <h3>Let's talk</h3>
-                <p>
+                <p className='email'>
                     Send me <a href='#'>email</a>
                 </p>
                 <p className='footer'>
@@ -16,7 +16,7 @@ function Contact() {
             </div>
 
             <div className='social'>
-                <h3>My social accounts</h3>
+                <h3>Follow me on</h3>
                 <div className='social-icons'>
                     <img src={Linkedin} alt='' />
                     <img src={Github} alt='' />
