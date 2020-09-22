@@ -1,0 +1,65 @@
+.contact {
+    width: 100vw;
+    border-top: 1px solid #2d2e32;
+    padding: 4rem;
+    background-color: #25262a;
+    display: grid;
+    grid-template-columns: repeat(2, 50vw);
+    grid-template-areas: 'info social';
+    .info {
+        grid-area: info;
+
+        h3 {
+            font-size: 3rem;
+            margin: 4rem 0;
+            background: -webkit-linear-gradient(#ecdbb6, #cda55f);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p {
+            color: #fff;
+            font-size: 2.5rem;
+            a {
+                color: #cda55f;
+                font-weight: 700;
+            }
+        }
+        .footer {
+            color: #aaa;
+            margin-top: 2rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            span {
+                margin: 1rem;
+                font-size: 1rem;
+                font-weight: 500;
+            }
+        }
+    }
+    .social {
+        grid-area: social;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h3 {
+            font-size: 2rem;
+            margin: 6rem 0;
+            background: -webkit-linear-gradient(#ecdbb6, #cda55f);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .social-icons {
+            // background-color: #2d2e32;
+            background-image: linear-gradient(#ecdbb6, #cda55f);
+            display: inline-block;
+            padding: 1rem 2rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 10px 10px rgba($color: #000000, $alpha: 0.3);
+            img {
+                margin: 0 1rem;
+                width: 50px;
+            }
+        }
+    }
+}

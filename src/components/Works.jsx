@@ -5,6 +5,10 @@ import Pic3 from '../styles/projects/travel3.png';
 import Pic11 from '../styles/projects/hotel1.png';
 import Pic12 from '../styles/projects/hotel2.png';
 import Pic13 from '../styles/projects/hotel3.png';
+import Pic21 from '../styles/projects/aircnc1.png';
+import Pic22 from '../styles/projects/aircnc2.png';
+import Pic23 from '../styles/projects/aircnc3.png';
+
 import '../styles/Works.scss';
 function Works() {
     return (
@@ -21,8 +25,6 @@ function Works() {
                         <div>Webpack</div>
                     </div>
                     <img src={Pic1} alt='' />
-                    <img src={Pic2} alt='' />
-                    <img src={Pic3} alt='' className='vimg' />
                 </div>
                 <div className='project'>
                     <h3>Dog Hotel</h3>
@@ -32,10 +34,18 @@ function Works() {
                         <div>Javascript</div>
                     </div>
                     <img src={Pic11} alt='' />
-                    <img src={Pic12} alt='' />
-                    <img src={Pic13} alt='' className='vimg' />
+                </div>
+                <div className='project'>
+                    <h3>Aircnc</h3>
+                    <div className='tools'>
+                        <div>HTML5</div>
+                        <div>CSS3</div>
+                        <div>Javascript</div>
+                    </div>
+                    <img src={Pic21} alt='' />
                 </div>
             </div>
+            <button>show more projects</button>
         </div>
     );
 }

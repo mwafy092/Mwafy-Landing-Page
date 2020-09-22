@@ -4,6 +4,7 @@ import Nav from './Nav';
 import Header from './Header';
 import About from './About';
 import Works from './Works';
+import Contact from './Contact';
 class App extends Component {
     state = {};
     render() {
@@ -13,6 +14,7 @@ class App extends Component {
                 <Header />
                 <About />
                 <Works />
+                <Contact />
             </div>
         );
     }

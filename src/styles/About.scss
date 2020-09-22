@@ -1,4 +1,6 @@
 .about {
+    width: 100vw;
+    padding: 2rem;
     background-color: #25262a;
     display: grid;
     grid-template-columns: repeat(2, 50vw);
@@ -29,7 +31,6 @@
         }
     }
     .intro {
-        width: 100%;
         grid-area: intro;
         padding: 4rem 0;
         margin: 2rem 0;
