@@ -44,6 +44,15 @@ function Works() {
                     </div>
                     <img src={Pic21} alt='' />
                 </div>
+                <div className='project'>
+                    <h3>Aircnc</h3>
+                    <div className='tools'>
+                        <div>HTML5</div>
+                        <div>CSS3</div>
+                        <div>Javascript</div>
+                    </div>
+                    <img src={Pic21} alt='' />
+                </div>
             </div>
             <button>show more projects</button>
         </div>

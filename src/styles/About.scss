@@ -24,6 +24,7 @@
             box-shadow: 0 10px 10px rgba($color: #000000, $alpha: 0.2);
             margin: 1rem;
             padding: 1rem 1rem 0.5rem;
+            transition: all 0.3s ease-in-out;
             .stars {
                 font-weight: 900;
             }
