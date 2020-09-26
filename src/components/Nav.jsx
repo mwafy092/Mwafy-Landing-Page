@@ -31,7 +31,11 @@ const Nav = () => {
                         projects
                     </button>
                     <i
-                        className='fas fa-bars menu-icon'
+                        className={
+                            showMenu
+                                ? 'fas fa-times menu-icon'
+                                : 'fas fa-bars menu-icon'
+                        }
                         onClick={() => setShowMenu(!showMenu)}></i>
                 </div>
                 <ul
