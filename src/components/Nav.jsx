@@ -20,10 +20,14 @@ const Nav = () => {
                 <span>Lab</span>
             </div>
             <nav>
-                <ul>
+                <div className='mobile'>
+                    <button>projects</button>
+                    <i className='fas fa-bars menu-icon'></i>
+                </div>
+                <ul className='main-menu'>
                     <li>home</li>
                     <li>about</li>
-                    <li>works</li>
+                    <li>projects</li>
                     <li>contact</li>
                 </ul>
             </nav>
