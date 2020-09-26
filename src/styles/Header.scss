@@ -1,7 +1,6 @@
 .header {
     width: 100vw;
-    min-height: 100vh;
-
+    min-height: 80vh;
     background-color: #2d2e32;
     display: grid;
     grid-template-columns: repeat(2, 50vw);
@@ -168,13 +167,14 @@
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .header {
         .text {
             align-items: center;
             text-align: center;
             padding: 3rem;
             margin-left: 0;
+            margin-bottom: 0;
             h3 {
                 font-size: 0.9rem;
                 margin: auto;
