@@ -96,3 +96,12 @@
         }
     }
 }
+
+@media (max-width: 500px) {
+    .about-block {
+        .skills {
+            padding: 0;
+            margin: 0;
+        }
+    }
+}
