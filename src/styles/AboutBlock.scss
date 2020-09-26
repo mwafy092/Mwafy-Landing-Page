@@ -1,0 +1,98 @@
+.about-block {
+    background-color: #25262a;
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas: 'skills intro';
+    padding: 4rem 0 2rem;
+    .skills {
+        grid-area: skills;
+        padding: 2rem;
+        h3 {
+            margin: 1rem;
+            background: -webkit-linear-gradient(#ecdbb6, #cda55f);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .skill {
+            text-align: center;
+            font-weight: 500;
+            color: #cda55f;
+            background-color: #2d2e32;
+            display: inline-block;
+            border-radius: 0.5rem;
+            box-shadow: 0 10px 10px rgba($color: #000000, $alpha: 0.2);
+            margin: 1rem;
+            padding: 1rem 1rem 0.5rem;
+            transition: all 0.3s ease-in-out;
+            .stars {
+                font-weight: 900;
+            }
+            &:hover {
+                box-shadow: none;
+            }
+        }
+    }
+    .intro {
+        grid-area: intro;
+        padding: 2rem;
+        h4 {
+            margin: 2rem 0;
+            color: #999;
+            font-weight: 600;
+            background: -webkit-linear-gradient(#ecdbb6, #cda55f);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 5px 5px rgba($color: #000000, $alpha: 0.2);
+        }
+        h1 {
+            margin: 4rem 0;
+            color: #fff;
+            font-weight: 700;
+            span {
+                margin: 0 0 4rem;
+                display: block;
+                font-weight: 500;
+                color: #cda55f;
+            }
+        }
+        h3 {
+            color: #fff;
+            font-size: 1.5rem;
+            margin: 1rem 0 2rem;
+        }
+        p {
+            width: 80%;
+            color: #999;
+            font-size: 1.2rem;
+            font-weight: 500;
+            line-height: 2.5rem;
+        }
+    }
+}
+
+@media (max-width: 1100px) {
+    .about {
+        text-align: center;
+        grid-template-columns: 100%;
+        grid-template-areas:
+            'skills'
+            'intro';
+        .intro {
+            h4 {
+                font-size: 1.3rem;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            h3 {
+                font-size: 1.3rem;
+            }
+            p {
+                font-size: 1rem;
+                width: 100%;
+            }
+        }
+    }
+}

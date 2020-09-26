@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/Nav.scss';
-
+import { Link } from 'react-router-dom';
 const Nav = () => {
     const [nav, setNav] = useState(false);
     const [showMenu, setShowMenu] = useState(false);
@@ -14,12 +14,15 @@ const Nav = () => {
     };
 
     window.addEventListener('scroll', changeNav);
+
     return (
         <div className={nav ? 'scrollEffect nav' : 'nav'}>
-            <div className='logo'>
-                mwafy
-                <span>Lab</span>
-            </div>
+            <Link to='/' style={{ textDecoration: 'none' }}>
+                <div className='logo'>
+                    mwafy
+                    <span>Lab</span>
+                </div>
+            </Link>
             <nav>
                 <div className='mobile'>
                     <button
@@ -42,10 +45,18 @@ const Nav = () => {
                     className={
                         showMenu ? 'main-menu mobile-menu' : 'main-menu'
                     }>
-                    <li>home</li>
-                    <li>about</li>
-                    <li>projects</li>
-                    <li>contact</li>
+                    <Link to='/' style={{ textDecoration: 'none' }}>
+                        <li>home</li>
+                    </Link>
+                    <Link to='/about' style={{ textDecoration: 'none' }}>
+                        <li>about</li>
+                    </Link>
+                    <Link to='/projects' style={{ textDecoration: 'none' }}>
+                        <li>projects</li>
+                    </Link>
+                    <Link to='/contact' style={{ textDecoration: 'none' }}>
+                        <li>contact</li>
+                    </Link>
                 </ul>
             </nav>
         </div>

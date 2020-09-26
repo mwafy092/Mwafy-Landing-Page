@@ -1,0 +1,78 @@
+.contact {
+    background-color: #25262a;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(2, 50vw);
+    grid-template-areas: 'info social';
+    border-top: 1px solid #444;
+    padding: 4rem 0 1rem;
+    .info {
+        text-align: center;
+        grid-area: info;
+        padding: 1rem;
+        h3 {
+            font-size: 1.5rem;
+            margin: 2rem;
+            text-align: center;
+            background: -webkit-linear-gradient(#ecdbb6, #cda55f);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .email {
+            color: #fff;
+            font-weight: 600;
+            a {
+                color: #cda55f;
+            }
+        }
+        .footer {
+            color: #fff;
+        }
+    }
+    .social {
+        grid-area: social;
+        text-align: center;
+        h3 {
+            font-size: 1.5rem;
+            margin: 2rem;
+            text-align: center;
+            background: -webkit-linear-gradient(#ecdbb6, #cda55f);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .social-icons {
+            background-color: #cda55f;
+            display: inline-block;
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 10px 10px rgba($color: #000000, $alpha: 0.2);
+            img {
+                margin: 0 1rem;
+                width: 30px;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .contact {
+        padding: 1rem;
+        grid-template-columns: 100%;
+        grid-template-areas:
+            'social'
+            'info';
+        .info {
+            margin: 1rem 0;
+        }
+        .social {
+            margin: 1rem 0;
+            .social-icons {
+                padding: 0.5rem;
+                img {
+                    width: 20px;
+                    margin: 0 0.5rem;
+                }
+            }
+        }
+    }
+}

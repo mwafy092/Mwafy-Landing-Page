@@ -1,96 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 .about {
     background-color: #25262a;
-    width: 100vw;
-    display: grid;
-    grid-template-columns: 40% 60%;
-    grid-template-areas: 'skills intro';
-    padding: 4rem 0 2rem;
-    .skills {
-        grid-area: skills;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .skills-section {
+        background-color: #2d3037;
         padding: 2rem;
-        h3 {
-            margin: 1rem;
+        border-radius: 1rem;
+        width: 40vw;
+        margin: 2rem;
+        box-shadow: 0 10px 10px rgba($color: #000000, $alpha: 0.3);
+        h2 {
+            margin: 2rem 0;
             background: -webkit-linear-gradient(#ecdbb6, #cda55f);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
-        .skill {
-            text-align: center;
+        p {
+            color: #fff;
             font-weight: 500;
-            color: #cda55f;
-            background-color: #2d2e32;
-            display: inline-block;
-            border-radius: 0.5rem;
-            box-shadow: 0 10px 10px rgba($color: #000000, $alpha: 0.2);
-            margin: 1rem;
-            padding: 1rem 1rem 0.5rem;
-            transition: all 0.3s ease-in-out;
-            .stars {
-                font-weight: 900;
-            }
-            &:hover {
-                box-shadow: none;
+        }
+    }
+    .learning-section {
+        background-color: #191c21;
+        width: 40vw;
+        padding: 2rem;
+        border-radius: 1rem;
+        box-shadow: 0 10px 10px rgba($color: #000000, $alpha: 0.3);
+        margin: 2rem;
+        h2 {
+            background: -webkit-linear-gradient(#ecdbb6, #cda55f);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 2rem 0;
+        }
+        p {
+            color: #fff;
+            font-weight: 500;
+            span {
+                color: #dabd85;
+                font-weight: 600;
             }
         }
     }
-    .intro {
-        grid-area: intro;
+    .certificates-section {
+        background-color: #2d3037;
         padding: 2rem;
-        h4 {
-            margin: 2rem 0;
-            color: #999;
-            font-weight: 600;
+        border-radius: 1rem;
+        margin: 2rem 0;
+        box-shadow: 0 10px 10px rgba($color: #000000, $alpha: 0.3);
+        h2 {
             background: -webkit-linear-gradient(#ecdbb6, #cda55f);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            text-shadow: 0 5px 5px rgba($color: #000000, $alpha: 0.2);
+            margin: 2rem 2rem;
         }
-        h1 {
-            margin: 4rem 0;
-            color: #fff;
-            font-weight: 700;
-            span {
-                margin: 0 0 4rem;
+        .images {
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            padding: 1rem;
+            border-radius: 1rem;
+            img {
                 display: block;
-                font-weight: 500;
-                color: #cda55f;
+                box-shadow: 0 5px 10px rgba($color: #000000, $alpha: 0.2);
+                width: 300px;
+                border-radius: 1rem;
+                margin: 1rem;
+                box-shadow: 0 5px 10px rgba($color: #000000, $alpha: 0.2);
+                transition: all 0.3s ease-in-out;
+                &:hover {
+                    border: 4px solid #cda55f;
+                }
             }
-        }
-        h3 {
-            color: #fff;
-            font-size: 1.5rem;
-            margin: 1rem 0 2rem;
-        }
-        p {
-            width: 80%;
-            color: #999;
-            font-size: 1.2rem;
-            font-weight: 500;
-            line-height: 2.5rem;
         }
     }
 }
 
-@media (max-width: 1100px) {
+.animate1 {
+    animation: fadeIn1 3s forwards;
+}
+
+@keyframes fadeIn1 {
+    0% {
+        opacity: 0;
+        transform: translateY(-4em);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.animate2 {
+    animation: fadeIn2 3s forwards;
+}
+
+@keyframes fadeIn2 {
+    0% {
+        opacity: 0;
+        transform: translateY(4em);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.animate3 {
+    animation: fadeIn3 3s forwards;
+}
+
+@keyframes fadeIn3 {
+    0% {
+        opacity: 0;
+        transform: translateX(-5em);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.animate4 {
+    animation: fadeIn4 3s forwards;
+}
+
+@keyframes fadeIn4 {
+    0% {
+        opacity: 0;
+        transform: translateX(5em);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 950px) {
     .about {
-        text-align: center;
-        grid-template-columns: 100%;
-        grid-template-areas:
-            'skills'
-            'intro';
-        .intro {
-            h4 {
-                font-size: 1.3rem;
-            }
-            h1 {
-                font-size: 2rem;
-            }
-            h3 {
-                font-size: 1.3rem;
-            }
-            p {
-                font-size: 1rem;
-                width: 100%;
+        .skills-section,
+        .learning-section {
+            width: 100vw;
+        }
+        .certificates-section {
+            .images {
+                padding: 0;
+                img {
+                    width: 100%;
+                    margin: 1rem 0;
+                }
             }
         }
     }

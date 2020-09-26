@@ -9,8 +9,8 @@ import Pic21 from '../styles/projects/aircnc1.png';
 import Pic22 from '../styles/projects/aircnc2.png';
 import Pic23 from '../styles/projects/aircnc3.png';
 
-import '../styles/Works.scss';
-function Works() {
+import '../styles/ProjectsBlock.scss';
+function ProjectsBlock() {
     return (
         <div className='works'>
             <h2>Latest Projects</h2>
@@ -59,4 +59,4 @@ function Works() {
     );
 }
 
-export default Works;
+export default ProjectsBlock;

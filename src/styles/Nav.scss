@@ -15,7 +15,7 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         span {
-            font-size: 1.2rem;
+            font-size: 0.9rem;
             margin: 0.2rem;
             font-weight: 600;
         }
@@ -38,11 +38,12 @@
             flex-wrap: wrap;
             text-align: center;
             margin: 0;
+
             li {
                 list-style: none;
                 margin: 0 2rem;
                 font-weight: 600;
-                font-size: 1.2rem;
+                font-size: 1rem;
                 color: #dabb86;
             }
             .mail {

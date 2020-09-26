@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/Header.scss';
 import Profile from '../styles/images/profile.jpg';
-
+import { Link } from 'react-router-dom';
 class Header extends Component {
     state = {};
     render() {
@@ -11,13 +11,14 @@ class Header extends Component {
                     <h3 className='animate1'>Front-End Developer</h3>
                     <h1 className='animate2'>Hello, World</h1>
                     <p className='animate3'>
-                        I'm a Javascript developer, works with React framework
-                        and connect your data to Node Server.
+                        This is Mustafa Mwafy, a front end developer who is
+                        skilled in building web apps using a cutting edge
+                        front-end technologies like Javascript and React.
                     </p>
 
-                    <a href='' className='animate4'>
-                        Know more
-                    </a>
+                    <Link to='/about' className='animate4'>
+                        know more about my skills
+                    </Link>
                 </div>
                 <div className='profile'>
                     <div className='image animate4'>
