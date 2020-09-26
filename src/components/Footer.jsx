@@ -4,7 +4,7 @@ import Linkedin from '../styles/images/linkedin.svg';
 import Github from '../styles/images/github.svg';
 function Footer() {
     return (
-        <div className='contact'>
+        <div className='contact' id='contact'>
             <div className='info'>
                 <h3>Let's talk</h3>
                 <p className='email'>

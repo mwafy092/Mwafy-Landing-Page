@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/Nav.scss';
 import { Link } from 'react-router-dom';
+
 const Nav = () => {
     const [nav, setNav] = useState(false);
     const [showMenu, setShowMenu] = useState(false);
@@ -25,14 +26,16 @@ const Nav = () => {
             </Link>
             <nav>
                 <div className='mobile'>
-                    <button
-                        style={
-                            showMenu
-                                ? { display: 'none' }
-                                : { display: 'block' }
-                        }>
-                        projects
-                    </button>
+                    <Link to='/projects' style={{ textDecoration: 'none' }}>
+                        <button
+                            style={
+                                showMenu
+                                    ? { display: 'none' }
+                                    : { display: 'block' }
+                            }>
+                            projects
+                        </button>
+                    </Link>
                     <i
                         className={
                             showMenu
@@ -54,8 +57,8 @@ const Nav = () => {
                     <Link to='/projects' style={{ textDecoration: 'none' }}>
                         <li>projects</li>
                     </Link>
-                    <Link to='/contact' style={{ textDecoration: 'none' }}>
-                        <li>contact</li>
+                    <Link to='/' style={{ textDecoration: 'none' }}>
+                        <li onScroll='#contact'>contact</li>
                     </Link>
                 </ul>
             </nav>

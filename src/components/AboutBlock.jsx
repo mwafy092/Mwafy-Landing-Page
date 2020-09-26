@@ -20,12 +20,12 @@ function AboutBlock() {
                 {skills.map((skill) => (
                     <div className='skill'>
                         <div>{skill.name}</div>
-                        <div className='stars'>{'* '.repeat(skill.score)}</div>
+                        <div className='stars'>{'⭐'.repeat(skill.score)}</div>
                     </div>
                 ))}
             </div>
             <div className='intro'>
-                <h4>Nice to meet me!</h4>
+                <h4>Nice to meet you</h4>
                 <h1>
                     Hello, This is Mustafa<span>Mwafy</span>
                 </h1>
@@ -34,15 +34,16 @@ function AboutBlock() {
                     magic.
                 </h3>
                 <p>
-                    I’m a passionate junior front-end developer and my changing
-                    career journey started with an introduction to computer
-                    science course by Harvard, then i fall in love in coding
-                    more, after that i got 2 front-end nano-degrees from udacity
-                    and a couple of javascript certificates with a lot of
-                    projects implemented, My target in the next few years is to
-                    be one of the most successful front-end engineers , I'm
-                    learning and will keep learning and searching to be veteran
-                    and successful coder.
+                    Before anything i'm a linux user so i can work very
+                    professionally with command line I have a great skills with
+                    HTML5, CSS3 , SASS and Bootstrap so i can implement any
+                    web-site design, also i can write web-apps using Javascript,
+                    ES6 and React JS FrameWork. Also i skilled in using Web-API
+                    and Asynchronous Javascript to implement any kind of API. I
+                    can work with backend using Node and Express, and finally
+                    connect everything using Webpack building tool and Git
+                    service, also i'm using service workers to keep my web-app
+                    working offline like an app.
                 </p>
             </div>
         </div>

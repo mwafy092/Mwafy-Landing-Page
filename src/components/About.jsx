@@ -45,7 +45,7 @@ function About() {
             </div>
 
             <div className='certificates-section animate2'>
-                <h2>My Certificates</h2>
+                <h2>Wall of fame</h2>
                 <div className='images'>
                     <a href='./projects/certificates/6.png' target='_blank'>
                         <img

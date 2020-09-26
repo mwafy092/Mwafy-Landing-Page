@@ -9,6 +9,7 @@
     .skills {
         grid-area: skills;
         padding: 2rem;
+        margin: 2rem;
         h3 {
             margin: 1rem;
             background: -webkit-linear-gradient(#ecdbb6, #cda55f);
@@ -16,6 +17,7 @@
             -webkit-text-fill-color: transparent;
         }
         .skill {
+            font-size: 0.9rem;
             text-align: center;
             font-weight: 500;
             color: #cda55f;
@@ -26,9 +28,6 @@
             margin: 1rem;
             padding: 1rem 1rem 0.5rem;
             transition: all 0.3s ease-in-out;
-            .stars {
-                font-weight: 900;
-            }
             &:hover {
                 box-shadow: none;
             }
@@ -37,6 +36,7 @@
     .intro {
         grid-area: intro;
         padding: 2rem;
+        margin: 2rem;
         h4 {
             margin: 2rem 0;
             color: #999;
@@ -73,12 +73,12 @@
 }
 
 @media (max-width: 1100px) {
-    .about {
+    .about-block {
         text-align: center;
         grid-template-columns: 100%;
         grid-template-areas:
-            'skills'
-            'intro';
+            'intro'
+            'skills';
         .intro {
             h4 {
                 font-size: 1.3rem;
