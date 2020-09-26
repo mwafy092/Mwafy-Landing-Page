@@ -3,6 +3,7 @@ import '../styles/Nav.scss';
 
 const Nav = () => {
     const [nav, setNav] = useState(false);
+    const [showMenu, setShowMenu] = useState(false);
 
     const changeNav = () => {
         if (window.scrollY >= 60) {
@@ -21,10 +22,22 @@ const Nav = () => {
             </div>
             <nav>
                 <div className='mobile'>
-                    <button>projects</button>
-                    <i className='fas fa-bars menu-icon'></i>
+                    <button
+                        style={
+                            showMenu
+                                ? { display: 'none' }
+                                : { display: 'block' }
+                        }>
+                        projects
+                    </button>
+                    <i
+                        className='fas fa-bars menu-icon'
+                        onClick={() => setShowMenu(!showMenu)}></i>
                 </div>
-                <ul className='main-menu'>
+                <ul
+                    className={
+                        showMenu ? 'main-menu mobile-menu' : 'main-menu'
+                    }>
                     <li>home</li>
                     <li>about</li>
                     <li>projects</li>
