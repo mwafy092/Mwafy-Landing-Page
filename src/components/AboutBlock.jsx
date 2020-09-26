@@ -25,7 +25,6 @@ function AboutBlock() {
                 ))}
             </div>
             <div className='intro'>
-                <h4>Nice to meet you</h4>
                 <h1>
                     Hello, This is Mustafa<span>Mwafy</span>
                 </h1>
