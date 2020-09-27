@@ -36,6 +36,7 @@ function AboutBlock() {
                     Before anything i'm a linux user so i can work very
                     professionally with linux command line.
                 </p>
+                <hr />
                 <p className='center'>
                     I have a great skills with HTML5, CSS3 , SASS and Bootstrap
                     so i can implement any web-site design, also i can write
@@ -43,6 +44,7 @@ function AboutBlock() {
                     i skilled in using Web-API and Asynchronous Javascript to
                     implement any kind of API.
                 </p>
+                <hr />
                 <p>
                     I can work with backend using Node and Express, and finally
                     connect everything using Webpack building tool and Git

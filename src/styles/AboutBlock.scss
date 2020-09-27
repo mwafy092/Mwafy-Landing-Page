@@ -72,6 +72,10 @@
         p.center {
             color: #cda55f;
         }
+        hr {
+            background-color: #000000;
+            width: 50%;
+        }
     }
 }
 
@@ -95,6 +99,9 @@
             p {
                 font-size: 1rem;
                 width: 100%;
+            }
+            hr {
+                margin: 1rem auto;
             }
         }
     }
