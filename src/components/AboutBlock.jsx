@@ -12,6 +12,8 @@ function AboutBlock() {
         { name: 'Express', score: 5 },
         { name: 'Webpack', score: 3 },
         { name: 'React', score: 3 },
+        { name: 'Linux', score: 5 },
+        { name: 'Git', score: 5 },
     ]);
     return (
         <div className='about-block'>
@@ -33,8 +35,8 @@ function AboutBlock() {
                     magic."
                 </h3>
                 <p>
-                    Before anything i'm a linux user so i can work very
-                    professionally with linux command line.
+                    I'm a linux user skilled in using linux command line
+                    professionally, and i like to work with open source tools.
                 </p>
                 <hr />
                 <p className='center'>
