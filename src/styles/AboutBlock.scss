@@ -64,10 +64,13 @@
         }
         p {
             width: 80%;
-            color: #999;
-            font-size: 1.2rem;
-            font-weight: 500;
+            color: #cda55f;
+            font-size: 1.1rem;
+            font-weight: 600;
             line-height: 2.5rem;
+        }
+        p.center {
+            color: #cda55f;
         }
     }
 }
@@ -102,6 +105,13 @@
         .skills {
             padding: 0;
             margin: 0;
+        }
+        .intro {
+            padding: 0;
+            p {
+                width: 100%;
+                margin-bottom: 1.5rem;
+            }
         }
     }
 }

@@ -29,17 +29,22 @@ function AboutBlock() {
                     Hello, This is Mustafa<span>Mwafy</span>
                 </h1>
                 <h3>
-                    Being Front-End developer is an amazing adventure full of
-                    magic.
+                    "Being Front-End developer is an amazing adventure full of
+                    magic."
                 </h3>
                 <p>
                     Before anything i'm a linux user so i can work very
-                    professionally with command line I have a great skills with
-                    HTML5, CSS3 , SASS and Bootstrap so i can implement any
-                    web-site design, also i can write web-apps using Javascript,
-                    ES6 and React JS FrameWork. Also i skilled in using Web-API
-                    and Asynchronous Javascript to implement any kind of API. I
-                    can work with backend using Node and Express, and finally
+                    professionally with linux command line.
+                </p>
+                <p className='center'>
+                    I have a great skills with HTML5, CSS3 , SASS and Bootstrap
+                    so i can implement any web-site design, also i can write
+                    web-apps using Javascript, ES6 and React JS FrameWork. Also
+                    i skilled in using Web-API and Asynchronous Javascript to
+                    implement any kind of API.
+                </p>
+                <p>
+                    I can work with backend using Node and Express, and finally
                     connect everything using Webpack building tool and Git
                     service, also i'm using service workers to keep my web-app
                     working offline like an app.
