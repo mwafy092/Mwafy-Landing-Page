@@ -17,10 +17,10 @@ function ProjectsBlock() {
             git: 'https://github.com/mwafy092/Yummy-Eats',
         },
         {
-            name: 'bright colors',
-            image: '../projects/bright-colors.png',
-            link: 'https://pedantic-cori-c08c3f.netlify.app/',
-            git: 'https://github.com/mwafy092/Udacity-Personal-Blog',
+            name: 'Amazon Clone',
+            image: '../projects/amazon.png',
+            link: 'https://clone-7e988.web.app/',
+            git: 'https://github.com/mwafy092/Amazon-Clone-React',
         },
     ];
     return (

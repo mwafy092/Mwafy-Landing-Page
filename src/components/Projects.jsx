@@ -4,6 +4,12 @@ import '../styles/Projects.scss';
 function Projects() {
     const appData = [
         {
+            name: 'Amazon Clone',
+            image: '../projects/amazon.png',
+            link: 'https://clone-7e988.web.app/',
+            git: 'https://github.com/mwafy092/Amazon-Clone-React',
+        },
+        {
             name: 'aircnc',
             image: '../projects/aircnc.png',
             link: 'https://wizardly-murdock-bb8b11.netlify.app/',
