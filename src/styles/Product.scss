@@ -26,14 +26,14 @@
 
     .product-button {
         position: absolute;
-        transform: translate(-50%, 50%);
+        transform: translate(-50%, 100%);
         margin-right: -50%;
         top: 50%;
         left: 50%;
-        background-color: rgba($color: #000000, $alpha: 0.7);
+        background-color: rgba($color: #000000, $alpha: 0.8);
         box-shadow: 0 10px 10px rgba($color: #000000, $alpha: 0.2);
         border: 1px solid #fdb12c;
-        padding: 0.5rem;
+        padding: 0.2rem 1rem;
         display: block;
         color: #fdb12c;
         border-radius: 0.5rem;
@@ -42,7 +42,11 @@
         font-size: 0.9rem;
         &:hover {
             box-shadow: none;
+            padding: 0.2rem 1.5rem;
         }
+    }
+    .git-button {
+        transform: translate(-50%, 250%);
     }
 }
 .animate1 {
