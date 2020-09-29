@@ -26,8 +26,8 @@ function AboutBlock() {
                     </div>
                 ))}
                 <div className='skill-set'>
-                    <p className='responsive'>Responsive ...design</p>
-                    <p className='java'>Javascript Geek</p>
+                    <p className='responsive'>Responsive ..design</p>
+                    <p className='java'>Javascript geek</p>
                     <p className='react'>i love react</p>
                     <p className='css'>
                         design with <span>css</span>
