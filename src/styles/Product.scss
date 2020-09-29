@@ -1,12 +1,14 @@
 .product {
     width: 400px;
     text-align: center;
-    background-color: #2d2e32;
+    // background-color: #2d2e32;
     padding: 1rem;
     border-radius: 1rem;
-    box-shadow: 0 10px 10px rgba($color: #000000, $alpha: 0.3);
+    // box-shadow: 0 10px 10px rgba($color: #000000, $alpha: 0.3);
     transition: all 0.3s ease-in-out;
     margin: 1rem;
+    position: relative;
+
     h2 {
         font-size: 1.3rem;
         color: #cda55f;
@@ -14,26 +16,44 @@
     }
     img {
         width: 350px;
+        height: 250px;
         border-radius: 0.5rem;
         margin: 0.5rem;
+        display: block;
+        position: relative;
+        box-shadow: 0 10px 10px rgba($color: #000000, $alpha: 0.3);
+        mask-image: linear-gradient(
+            rgba(0, 0, 0, 1),
+            rgba(0, 0, 0, 1),
+            rgba(0, 0, 0, 0.1)
+        );
     }
-    a {
-        text-transform: lowercase;
-        display: inline-block;
-        margin: 0.5rem;
-        border: 1px solid #cda55f;
-        color: #cda55f;
+    .product-button1,
+    .product-button2 {
+        position: absolute;
+        margin-right: -50%;
+        top: 50%;
+        left: 50%;
+        background-color: rgba($color: #000000, $alpha: 0.7);
+        box-shadow: 0 10px 10px rgba($color: #000000, $alpha: 0.2);
+        border: 1px solid #fdb12c;
+        padding: 0.2rem 1rem;
+        display: block;
+        color: #fdb12c;
         border-radius: 0.5rem;
-        text-decoration: none;
-        font-weight: 500;
+        font-weight: bold;
         transition: all 0.3s ease-in-out;
         font-size: 0.9rem;
-        padding: 0.2rem 0.4rem;
-        box-shadow: 0 5px 5px rgba($color: #000000, $alpha: 0.1);
+
         &:hover {
-            padding: 0.2rem 1rem;
-            color: #cda55f;
+            box-shadow: none;
         }
+    }
+    .product-button1 {
+        transform: translate(-120%, 350%);
+    }
+    .product-button2 {
+        transform: translate(10%, 350%);
     }
 }
 .animate1 {
