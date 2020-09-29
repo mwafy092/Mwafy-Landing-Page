@@ -32,7 +32,7 @@ function Footer() {
                 </div>
                 <div className='phone'>
                     <i class='fas fa-mobile-alt'></i>
-                    <a href='tel:201010009646'>01010009646</a>
+                    <a href='tel:+201010009646'>01010009646</a>
                 </div>
             </div>
         </div>
