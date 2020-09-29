@@ -16,44 +16,32 @@
     }
     img {
         width: 350px;
-        height: 250px;
         border-radius: 0.5rem;
         margin: 0.5rem;
         display: block;
         position: relative;
         box-shadow: 0 10px 10px rgba($color: #000000, $alpha: 0.3);
-        mask-image: linear-gradient(
-            rgba(0, 0, 0, 1),
-            rgba(0, 0, 0, 1),
-            rgba(0, 0, 0, 0.1)
-        );
     }
-    .product-button1,
-    .product-button2 {
+
+    .product-button {
         position: absolute;
+        transform: translate(-50%, 50%);
         margin-right: -50%;
         top: 50%;
         left: 50%;
         background-color: rgba($color: #000000, $alpha: 0.7);
         box-shadow: 0 10px 10px rgba($color: #000000, $alpha: 0.2);
         border: 1px solid #fdb12c;
-        padding: 0.2rem 1rem;
+        padding: 0.5rem;
         display: block;
         color: #fdb12c;
         border-radius: 0.5rem;
         font-weight: bold;
         transition: all 0.3s ease-in-out;
         font-size: 0.9rem;
-
         &:hover {
             box-shadow: none;
         }
-    }
-    .product-button1 {
-        transform: translate(-120%, 350%);
-    }
-    .product-button2 {
-        transform: translate(10%, 350%);
     }
 }
 .animate1 {
