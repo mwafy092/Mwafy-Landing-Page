@@ -30,6 +30,9 @@ function Footer() {
                         <img src={Github} alt='' />
                     </a>
                 </div>
+                <div className='phone'>
+                    <i class='fas fa-mobile-alt'></i> 01010009646
+                </div>
             </div>
         </div>
     );
