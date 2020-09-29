@@ -57,9 +57,11 @@ const Nav = () => {
                     <Link to='/projects' style={{ textDecoration: 'none' }}>
                         <li>projects</li>
                     </Link>
-                    <Link to='/' style={{ textDecoration: 'none' }}>
-                        <li onScroll='#contact'>contact</li>
-                    </Link>
+                    <a
+                        href='https://www.linkedin.com/in/mwafy/'
+                        target='_blank'>
+                        <i class='in-nav fab fa-linkedin'></i>
+                    </a>
                 </ul>
             </nav>
         </div>

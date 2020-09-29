@@ -9,12 +9,13 @@
     flex-wrap: wrap;
     justify-content: space-around;
     .skills-section {
-        background-color: #2d3037;
+        background-color: #25262a;
+        box-shadow: 0 10px 10px rgba($color: #000000, $alpha: 0.3);
         padding: 2rem;
         border-radius: 1rem;
         width: 40vw;
         margin: 2rem;
-        box-shadow: 0 10px 10px rgba($color: #000000, $alpha: 0.3);
+        transition: all 0.3s ease-in-out;
         h2 {
             margin: 2rem 0;
             background: -webkit-linear-gradient(#ecdbb6, #cda55f);
@@ -25,14 +26,19 @@
             color: #fff;
             font-weight: 500;
         }
+        &:hover {
+            box-shadow: none;
+        }
     }
     .learning-section {
-        background-color: #191c21;
+        background-color: #25262a;
+        box-shadow: 0 10px 10px rgba($color: #000000, $alpha: 0.3);
         width: 40vw;
         padding: 2rem;
         border-radius: 1rem;
-        box-shadow: 0 10px 10px rgba($color: #000000, $alpha: 0.3);
         margin: 2rem;
+        transition: all 0.3s ease-in-out;
+
         h2 {
             background: -webkit-linear-gradient(#ecdbb6, #cda55f);
             -webkit-background-clip: text;
@@ -47,14 +53,15 @@
                 font-weight: 600;
             }
         }
+        &:hover {
+            box-shadow: none;
+        }
     }
     .certificates-section {
-        background-color: #2d3037;
         padding: 2rem;
         border-radius: 1rem;
         margin: 2rem 0;
         width: 90%;
-        box-shadow: 0 10px 10px rgba($color: #000000, $alpha: 0.3);
         h2 {
             text-align: center;
             background: -webkit-linear-gradient(#ecdbb6, #cda55f);
@@ -70,14 +77,16 @@
             border-radius: 1rem;
             img {
                 display: block;
-                box-shadow: 0 5px 10px rgba($color: #000000, $alpha: 0.2);
                 width: 300px;
                 border-radius: 1rem;
                 margin: 1rem;
-                box-shadow: 0 5px 10px rgba($color: #000000, $alpha: 0.2);
+                box-shadow: 0 10px 10px rgba($color: #000000, $alpha: 0.3);
                 transition: all 0.3s ease-in-out;
+                background-color: #25262a;
+                padding: 2rem;
+                border-radius: 0.5rem;
                 &:hover {
-                    border: 4px solid #cda55f;
+                    box-shadow: none;
                 }
             }
         }
