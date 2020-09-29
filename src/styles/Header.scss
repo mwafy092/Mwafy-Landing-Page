@@ -4,11 +4,12 @@
     background-color: #2d2e32;
     display: grid;
     grid-template-columns: repeat(2, 50vw);
-    grid-template-areas: 'text profile';
+    grid-template-areas: 'text profile  ';
     background-image: url('./images/egypt1.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+
     .text {
         padding: 2rem;
         grid-area: text;

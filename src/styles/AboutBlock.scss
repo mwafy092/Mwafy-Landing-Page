@@ -33,6 +33,36 @@
                 box-shadow: none;
             }
         }
+        .skill-set {
+            margin: 4rem 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            p {
+                margin: 1rem;
+                font-size: 1.2rem;
+                color: #999;
+                font-family: 'Luckiest Guy', cursive;
+            }
+            .linux {
+                font-family: 'Press Start 2P', cursive;
+                font-size: 1rem;
+                color: #fff;
+                text-transform: uppercase;
+            }
+            .responsive {
+                font-size: 1.2rem;
+                color: #f0bf6c;
+                font-family: 'Monoton', cursive;
+            }
+            .react {
+                color: #ddd;
+            }
+            .css {
+                color: #fcb131;
+            }
+        }
     }
     .intro {
         grid-area: intro;
@@ -113,6 +143,11 @@
         .skills {
             padding: 0;
             margin: 0;
+            .skill-set {
+                p {
+                    font-size: 1rem;
+                }
+            }
         }
         .intro {
             padding: 0;
