@@ -31,7 +31,8 @@ function Footer() {
                     </a>
                 </div>
                 <div className='phone'>
-                    <i class='fas fa-mobile-alt'></i> 01010009646
+                    <i class='fas fa-mobile-alt'></i>
+                    <a href='tel:201010009646'>01010009646</a>
                 </div>
             </div>
         </div>
