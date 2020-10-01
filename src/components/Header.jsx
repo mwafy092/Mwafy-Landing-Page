@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/Header.scss';
-import Profile from '../styles/images/profile.jpg';
+import Profile from '../styles/images/profile-bw.jpg';
 import { Link } from 'react-router-dom';
 class Header extends Component {
     state = {};

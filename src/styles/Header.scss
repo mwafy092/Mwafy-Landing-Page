@@ -66,15 +66,13 @@
     align-items: center;
     padding: 2rem;
     .image {
-        // background-image: linear-gradient(#d89b16, #7c5718);
-        background-color: #25262a;
         padding: 1rem;
-        border-radius: 50%;
+        border-radius: 1rem;
         margin-bottom: 5rem;
-        box-shadow: 0 15px 15px rgba($color: #000000, $alpha: 0.2);
+        box-shadow: 0 15px 15px rgba($color: #000000, $alpha: 0.5);
         transition: all 0.3s ease-in-out;
         img {
-            border-radius: 50%;
+            border-radius: 1rem;
             width: 400px;
         }
         &:hover {
