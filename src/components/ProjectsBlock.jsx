@@ -25,7 +25,7 @@ function ProjectsBlock() {
     ];
     return (
         <div className='works'>
-            <h2>Latest Projects</h2>
+            <h2 className='works-heading'>Latest Projects</h2>
             <div className='project-container'>
                 {appData.map((data) => (
                     <Product

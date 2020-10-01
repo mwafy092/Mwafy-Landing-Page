@@ -18,7 +18,7 @@ function AboutBlock() {
     return (
         <div className='about-block'>
             <div className='skills'>
-                <h3>Skills</h3>
+                <h1>Skills</h1>
                 {skills.map((skill) => (
                     <div className='skill'>
                         <div>{skill.name}</div>
@@ -36,31 +36,24 @@ function AboutBlock() {
                 </div>
             </div>
             <div className='intro'>
-                <h1>
-                    Hello, This is Mustafa<span>Mwafy</span>
-                </h1>
+                <h1>About</h1>
                 <h3>
                     "Being Front-End developer is an amazing adventure full of
                     magic."
                 </h3>
-                <p>
-                    I'm a linux user skilled in using linux command line
-                    professionally, and i like to work with open source tools.
-                </p>
-                <hr />
+
                 <p className='center'>
                     I have a great skills with HTML5, CSS3 , SASS and Bootstrap
                     so i can implement any web-site design, also i can write
                     web-apps using Javascript, ES6 and React JS FrameWork. Also
                     i skilled in using Web-API and Asynchronous Javascript to
-                    implement any kind of API.
+                    implement any kind of APIs.
                 </p>
                 <hr />
                 <p>
                     I can work with backend using Node and Express, and finally
                     connect everything using Webpack building tool and Git
-                    service, also i'm using service workers to keep my web-app
-                    working offline like an app.
+                    service.
                 </p>
             </div>
         </div>

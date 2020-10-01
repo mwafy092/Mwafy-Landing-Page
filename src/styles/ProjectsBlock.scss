@@ -10,6 +10,7 @@
         background: -webkit-linear-gradient(#ecdbb6, #cda55f);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        font-family: 'Luckiest Guy', cursive;
     }
     .project-container {
         display: flex;
@@ -40,7 +41,10 @@
     .works {
         padding: 1rem;
         h2 {
-            font-size: 1.5rem;
+            font-size: 1.1rem;
+        }
+        .works-heading {
+            font-size: 1.4rem;
         }
         .project-container {
             .project {

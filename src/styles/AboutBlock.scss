@@ -10,12 +10,13 @@
     .skills {
         grid-area: skills;
         padding: 2rem;
-        margin: 2rem;
-        h3 {
-            margin: 1rem;
+        margin: 4rem 2rem;
+        h1 {
+            margin: 2rem 0 4rem 1rem;
             background: -webkit-linear-gradient(#ecdbb6, #cda55f);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            font-family: 'Luckiest Guy', cursive;
         }
         .skill {
             font-size: 0.9rem;
@@ -81,6 +82,7 @@
             margin: 4rem 0;
             color: #fff;
             font-weight: 700;
+            font-family: 'Luckiest Guy', cursive;
             span {
                 margin: 0 0 4rem;
                 display: block;
@@ -104,7 +106,7 @@
             color: #cda55f;
         }
         hr {
-            background-color: #000000;
+            background-color: #fcb131;
             width: 50%;
         }
     }
