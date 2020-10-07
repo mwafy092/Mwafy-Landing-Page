@@ -11,10 +11,10 @@ function ProjectsBlock() {
             git: 'https://github.com/mwafy092/Product-Design',
         },
         {
-            name: 'yummy eats',
-            image: '../projects/yummy-eats.png',
-            link: 'https://eager-cray-f18f46.netlify.app/',
-            git: 'https://github.com/mwafy092/Yummy-Eats',
+            name: 'Spotify Clone',
+            image: '../projects/spotify.png',
+            link: '#',
+            git: 'https://github.com/mwafy092/Spotify-Clone-React',
         },
         {
             name: 'Amazon Clone',

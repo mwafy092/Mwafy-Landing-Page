@@ -39,6 +39,12 @@ function Projects() {
             link: 'https://wonderful-mcclintock-6d4d61.netlify.app/',
             git: 'https://github.com/mwafy092/Udacity-Landing-Page',
         },
+        {
+            name: 'Spotify Clone',
+            image: '../projects/spotify.png',
+            link: '#',
+            git: 'https://github.com/mwafy092/Spotify-Clone-React',
+        },
     ];
     return (
         <div className='projects'>
